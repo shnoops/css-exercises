@@ -39,19 +39,19 @@ body {
   flex-shrink: 0;
 }
 
-.group {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .subgroup {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
   font-weight: bold;
   font-size: 20px;
+}
+
+.text {
+  padding-bottom: 15px;
 }
 
 .close-button {
