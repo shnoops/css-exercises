@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 20px;
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 .icon {
@@ -36,6 +36,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 2 1 42;
+}
+
+.group {
+  display: flex;
+  flex: 1 2;
+  flex-wrap: wrap;
+}
+
+.subgroup {
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .close-button {
