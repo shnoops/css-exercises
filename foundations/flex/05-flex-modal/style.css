@@ -36,12 +36,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 2 1 42;
+  flex-shrink: 0;
 }
 
 .group {
   display: flex;
-  flex: 1 2;
   flex-wrap: wrap;
 }
 
