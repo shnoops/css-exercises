@@ -15,6 +15,16 @@ body {
   padding-left: 10px;
 }
 
+.container {
+  display: flex;
+}
+
+.card-container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .footer {
   height: 72px;
   background: #eee;
@@ -25,6 +35,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
