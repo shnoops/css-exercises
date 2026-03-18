@@ -31,6 +31,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: grey;
 }
 
 .header {
@@ -46,7 +47,13 @@ a {
 }
 
 .right-links {
-  padding: 0;
+  padding: 0px;
   display: flex;
   gap: 20px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  padding: 8px;
+  display: flex;
 }
