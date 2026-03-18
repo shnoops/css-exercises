@@ -35,36 +35,34 @@ ul {
 
 a {
   text-decoration: none;
-  color: grey;
+  color: #808080;
 }
 
-.header {
-  display: flex;
-  padding: 8px;
-}
-
-.left-links {
-  padding: 0;
-  display: flex;
-  margin-right: auto;
-  gap: 20px;
-}
-
+.left-links,
 .right-links {
   padding: 0px;
   display: flex;
   gap: 20px;
 }
 
+.left-links {
+  margin-right: auto;
+}
+
+.header,
+.footer {
+  display: flex;
+  padding: 10px;
+}
+
 .footer {
   background-color: #eeeeee;
-  padding: 10px;
-  display: flex;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 15px;
 }
