@@ -2,6 +2,16 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Getting the center content row to stretch
+and the footer to stick to the bottom */ 
+
+.container {
+  display: flex;
+  flex: 1;
 }
 
 .header {
@@ -13,16 +23,6 @@ body {
   display: flex;
   align-items: center;
   padding-left: 16px;
-}
-
-.container {
-  display: flex;
-}
-
-.card-container {
-  padding: 48px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .footer {
@@ -42,17 +42,30 @@ body {
   padding: 16px;
 }
 
+.card-container {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 10px;
 }
+
+/* Removes bullet points and default padding and 
+margins from ul types */
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
+
+/* Removes underlining style from a types */
 
 a {
   text-decoration: none;
