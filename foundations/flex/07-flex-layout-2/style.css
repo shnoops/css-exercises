@@ -46,14 +46,16 @@ and the footer to stick to the bottom */
   padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 10px;
+  padding: 12px;
+  width: 30%;  /* https://matthewjamestaylor.com/holy-grail-layout */
+  flex: 1 1 auto;
 }
 
 /* Removes bullet points and default padding and 
